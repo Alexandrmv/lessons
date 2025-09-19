@@ -1,0 +1,63 @@
+@import url("reset.css");
+a {
+    color: blue;
+}
+
+.header-title {
+    color: blue;
+}
+
+.header-text {
+    color: yellow;
+}
+
+ul li {
+    color: rgb(241, 159, 159);
+}
+
+main > ul li {
+    color: aqua;
+}
+main ol li {
+    color: black;
+}
+
+main span {
+    color: green;
+}
+
+main > p {
+    color: rgb(50, 41, 172);
+}
+
+div.article-culture__text {
+    color: green;
+}
+
+.article-culture__text a {
+    color: rgb(130, 0, 252);
+}
+
+[class*="history"] {
+    color: brown;
+}
+
+.article-item__link--history{
+    color: yellowgreen;
+}
+
+.article-cousine__text--p + p {
+    color: rgb(152, 255, 174);
+}
+
+.article-cousine__text {
+    color: red;
+}
+
+.footer-text {
+    color: red;
+}
+
+.footer-text__link {
+    color: firebrick;
+}
