@@ -1,0 +1,86 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto%20Serif:ital,wght@1,400;1,500;1,700&display=swap');
+@font-face {
+    font-family: "Robo-Vari";
+    src: url(../fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Robo-Vari", serif;
+    font-size: 18px;
+}
+
+.header-title {
+    font-family: "Roboto" , sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.header-span {
+    text-decoration: line-through;
+}
+
+.roboto-head {
+    font-family: "Roboto" , sans-serif;
+    font-size: 20px;
+}
+
+.roboto-head-title,
+.RobotoSerif-VariableFont-title,
+.RobotoSerif-Italic-Variablnt-title {
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.roboto-head-text {
+    text-decoration: overline;
+    text-transform: capitalize;
+    line-height: 24px;
+}
+
+.RobotoSerif-VariableFont {
+    font-family: "Robo-Vari" , serif;
+    font-size: 14px;
+    color: brown;
+}
+
+.RobotoSerif-VariableFont-text {
+    text-align: left;
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+.text-shadow {
+    text-shadow: 3px 5px 5px #ddd , 3px -2px 6px red;
+}
+
+.RobotoSerif-Italic-VariableFont {
+    font-family: "Roboto Serif" , serif;
+    color: green;
+    font-size: 20px;
+    line-height: 2.5;
+}
+.RobotoSerif-Italic-VariableFont-text {
+    word-spacing: 30px;
+}
+
+.footer-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer-text-p {
+    color: forestgreen;
+}
+
+.footer-link {
+    color: blue;
+    letter-spacing: 15px;
+
+}
