@@ -55,6 +55,7 @@ h1 {
     width: 60px;
     height: 60px;
     margin: 0 auto 24px;
+    object-fit: contain;
 }
 .choose-item__title {
     font-family: "Lato", sans-serif;
@@ -68,6 +69,7 @@ h1 {
     margin-bottom: 68px;
 
 }
+
 
 
 
