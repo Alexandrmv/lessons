@@ -27,7 +27,8 @@
     max-width: 1180px;
     margin: 0 auto;
 }
-.choose-title {
+.choose-title,
+h1 {
     font-family: "Lato ExtraBold", sans-serif;
     font-size: 32px;
     color: #2F302C;
@@ -65,4 +66,5 @@
     margin-bottom: 68px;
 
 }
+
 
