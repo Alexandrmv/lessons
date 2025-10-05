@@ -1,0 +1,134 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@font-face {
+    font-family: "Lato Medium";
+    src: url(../fonts/Lato-Medium.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sections {
+    max-width: 1392px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.lesson-border,
+.lesson-outline {
+    background: linear-gradient(135deg, #217074 0%,#37745b 38%,#37745b 66%,#8b9d77 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+.title {
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.items {
+    font-size: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.lb-items__item,
+.lo-items__item {
+ display: inline-block;
+ width: 50%;
+ padding-left: 8px;
+ padding-right: 8px;
+ font-size: 16px;
+ margin-bottom: 16px;
+ vertical-align: top;
+}
+
+.lb-items__item.s1,
+.lo-items__item.s1 {
+    border: 5px solid red;
+}
+
+.lb-items__item.s2,
+.lo-items__item.s2 {
+    border: 5px dotted red;
+}
+.lb-items__item.s3,
+.lo-items__item.s3 {
+border: 5px dashed red;
+}
+
+.lb-items__item.s4,
+.lo-items__item.s4 {
+    border: 5px double red;
+}
+
+.lb-items__item.s5 {
+    border-left: 5px solid red;
+}
+
+.lb-items__item.s6 {
+    border-right: 5px solid red;
+}
+
+.lb-items__item.s7 {
+    border-top: 5px solid red;
+}
+
+.lb-items__item.s8 {
+    border-bottom: 5px solid red;
+}
+
+.container.welcome {
+    background-image: url(../img/bg-welcom.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.welcome-items {
+    padding-top: 114px;
+    padding-left: 744px;
+}
+
+.wi-preftitle,
+header h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2F302C;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+header h2 {
+    text-align: center;
+}
+
+.wi-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 1,041666666666667;
+    color: #2F302C;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.wi-title span {
+    font-weight: 700;
+}
+
+.wi-line {
+    width: 308px;
+    border-bottom: 1px solid #2F302C ;
+    margin-left: 15px;
+    margin-bottom: 36px;
+}
+
+.wi-preftitle__text {
+    font-family: "Lato Medium", sans-serif;
+    font-weight: 500;
+    max-width: 374px;
+    line-height: 1.25;
+    color: #7E7F7C;
+    padding-bottom: 110px;
+}
