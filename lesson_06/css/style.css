@@ -107,7 +107,7 @@ header h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 96px;
-    line-height: 1,05;
+    line-height: 1.05;
     color: #2F302C;
     margin-bottom: 16px;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ header h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.2px;
 }
 
@@ -157,3 +157,4 @@ header h2 {
 .ar-gray {
     background: url(../img/ar-gray.png) 0 0 no-repeat;
 }
+
